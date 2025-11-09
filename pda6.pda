@@ -1,6 +1,6 @@
 alphabet: {a,b}
 start: q0
-accepting: {q3}
+accepting: {qA}
 q0 (_, _ -> $, q1)
 q1 (_, _ -> @, q2)
-q2 (_, @ -> AX, q2) (_, @ -> YB, q2) (_, @ -> ZbZaZ, q2) (_, A -> aA, q2) (_, A -> _, q2) (_, B -> bB, q2) (_, B -> _, q2) (_, X -> a, q2) (_, X -> aXb, q2) (_, Y -> b, q2) (_, X -> aYb, q2) (_, Z -> aZ, q2) (_, Z -> bZ, q2) (_, Z -> _, q2) (a, a -> _, q2) (b, b -> _, q2) (_, $ -> _, q3)
+q2 (_, @ -> AX, q2) (_, @ -> YB, q2) (_, @ -> ZbZaZ, q2) (_, A -> aA, q2) (_, A -> _, q2) (_, B -> bB, q2) (_, B -> _, q2) (_, X -> a, q2) (_, X -> aXb, q2) (_, Y -> b, q2) (_, Y -> aYb, q2) (_, Z -> aZ, q2) (_, Z -> bZ, q2) (_, Z -> _, q2) (a, a -> _, q2) (b, b -> _, q2) (_, $ -> _, qA)
